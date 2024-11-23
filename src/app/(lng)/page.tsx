@@ -6,6 +6,8 @@ export default function Home() {
         <div>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis distinctio eius eum, harum impedit iusto, nam nisi nulla, quos tempora vel vero. Aut deleniti explicabo incidunt nam quaerat rerum?
         </div>
+
+
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur ea, eligendi et impedit maiores non, qui, repellat sit soluta voluptas.
