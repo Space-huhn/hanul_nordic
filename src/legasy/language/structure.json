@@ -1,0 +1,125 @@
+
+{
+    "websiteName": "Hanul Hordic",
+    "pages": [
+      {
+        "id": "home",
+        "title": "Home",
+        "url": "/",
+        "header": {
+          "logo": "logo.png",
+          "navigation": [
+            { "label": "Home", "url": "/" },
+            { "label": "About", "url": "/about" },
+            { "label": "Services", "url": "/services" },
+            { "label": "Contact", "url": "/contact" }
+          ]
+        },
+        "content": [
+          {
+            "type": "hero",
+            "title": "Welcome to Our Website",
+            "subtitle": "Delivering Excellence Since 20XX",
+            "image": "hero-image.jpg"
+          },
+          {
+            "type": "feature",
+            "title": "Our Expertise",
+            "icon": "expertise-icon.png",
+            "description": "We specialize in creating innovative web solutions."
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "title": "About Us",
+        "url": "/about",
+        "header": {
+          "logo": "logo.png",
+          "navigation": [
+            { "label": "Home", "url": "/" },
+            { "label": "About", "url": "/about" },
+            { "label": "Services", "url": "/services" },
+            { "label": "Contact", "url": "/contact" }
+          ]
+        },
+        "content": [
+          {
+            "type": "section",
+            "title": "Our Story",
+            "text": "Learn about how our company was founded and its journey so far.",
+            "image": "about-image.jpg"
+          },
+          {
+            "type": "section",
+            "title": "Our Team",
+            "members": [
+              { "name": "John Doe", "position": "CEO", "photo": "john-doe.jpg" },
+              { "name": "Jane Smith", "position": "Lead Designer", "photo": "jane-smith.jpg" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "services",
+        "title": "Our Services",
+        "url": "/services",
+        "header": {
+          "logo": "logo.png",
+          "navigation": [
+            { "label": "Home", "url": "/" },
+            { "label": "About", "url": "/about" },
+            { "label": "Services", "url": "/services" },
+            { "label": "Contact", "url": "/contact" }
+          ]
+        },
+        "content": [
+          {
+            "type": "service",
+            "title": "Web Design",
+            "description": "We create beautiful and functional websites tailored to your needs.",
+            "icon": "web-design-icon.png"
+          },
+          {
+            "type": "service",
+            "title": "Digital Marketing",
+            "description": "Boost your online presence with our effective digital marketing strategies.",
+            "icon": "digital-marketing-icon.png"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact Us",
+        "url": "/contact",
+        "header": {
+          "logo": "logo.png",
+          "navigation": [
+            { "label": "Home", "url": "/" },
+            { "label": "About", "url": "/about" },
+            { "label": "Services", "url": "/services" },
+            { "label": "Contact", "url": "/contact" }
+          ]
+        },
+        "content": [
+          {
+            "type": "contact-info",
+            "title": "Get in Touch",
+            "address": "123 Main St, City",
+            "phone": "123-456-7890",
+            "email": "info@example.com"
+          },
+          {
+            "type": "contact-form",
+            "title": "Send Us a Message",
+            "fields": [
+              { "label": "Name", "type": "text", "required": true },
+              { "label": "Email", "type": "email", "required": true },
+              { "label": "Message", "type": "textarea", "required": true }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

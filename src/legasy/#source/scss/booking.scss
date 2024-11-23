@@ -1,0 +1,196 @@
+.booking {
+    // .booking__section-title
+
+    #or {
+        color: #D5AA7F;
+        font-family: 'Montserrat';
+        font-size: 36px;
+        font-weight: 800;
+        text-align: center;
+        margin: 50px 0;
+        text-transform: uppercase;
+    }
+
+    &__section-title {}
+
+    // .booking__title
+
+    &__title {
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .send__data {
+        margin-top: 40px;
+        display: flex;
+        gap: 45px;
+        align-items: center;
+    }
+
+    &__button {
+        padding: 20px 75px !important;
+    }
+
+    &__first-form {
+        max-width: 620px;
+
+    }
+
+    &__second-form {
+        max-width: 865px;
+    }
+
+
+    // .booking__section-title
+
+    &__section-title {}
+
+    // .booking__title
+
+    &__title {}
+
+
+    // .booking__button
+
+    &__button {}
+
+    // .booking__user
+
+    &__user {
+        max-width: 290px;
+        color: #333;
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+.booking-form {
+    margin: 75px auto 0;
+
+    &__input {
+        display: inline-block;
+        width: 100%;
+        color: #333 !important;
+        font-size: 21px !important;
+        padding: 20px 0 !important;
+        border-bottom: 1px solid #C3C3C3 !important;
+        margin-top: 20px !important;
+        background: transparent !important;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+
+    textarea {
+        height: 250px;
+        width: 100%;
+        resize: none;
+    }
+
+    select {
+        border: none;
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+        appearance: none;
+        -webkit-appearance: none;
+        -webkit-color: #aaa;
+        color: #333 !important;
+        -webkit-color: #333 !important;
+    }
+}
+
+.booking__form-imput-container {
+    display: flex;
+    align-items: flex-end;
+
+    span {
+        display: none;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    &.error input {
+        border-bottom: 2px solid #e30000 !important;
+    }
+
+    &.error span {
+        display: inline-block;
+        margin-left: 15px;
+        background: url('../../img/icons/error.svg') 0 0/cover no-repeat;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .booking {
+        #or {
+            font-size: 26px;
+            font-weight: 700;
+            margin: 35px 0;
+        }
+
+        &__title {
+            margin-top: 15px;
+        }
+
+        .send__data {
+            margin-top: 30px;
+            gap: 35px;
+        }
+
+        &__button {
+            padding: 10px 45px !important;
+        }
+    }
+
+    .booking-form {
+        margin: 55px auto 0;
+
+        &__input {
+            font-size: 18px !important;
+            padding: 15px 0 !important;
+            margin-top: 15px !important;
+        }
+
+        textarea {
+            height: 120px;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .booking {
+        #or {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 25px 0;
+        }
+
+        &__title {
+            margin-top: 15px;
+        }
+
+        .send__data {
+            margin-top: 20px;
+            gap: 25px;
+        }
+    }
+
+    .booking-form {
+        margin: 35px auto 0;
+
+        &__input {
+            font-size: 16px !important;
+            padding: 15px 0 !important;
+            margin-top: 15px !important;
+        }
+
+        textarea {
+            height: 100px;
+        }
+    }
+
+    .send__data {
+        flex-wrap: wrap;
+    }
+}

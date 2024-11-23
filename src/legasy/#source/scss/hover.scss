@@ -1,0 +1,108 @@
+// .hover-element {
+// 	position: absolute;
+// 	width: 100%;
+// 	height: 100%;
+// 	left: 0;top: 0;
+// 	overflow: hidden;
+// 	@media (max-width: 767.98px) {display: none;}
+// 	& span{
+// 		&::after, &::before{
+// 			transition-duration: 0.6s;
+// 			background: rgba(149, 167, 255, 0.7);
+// 			width: 100%;
+// 			height: 1.5px;
+// 			position: absolute;
+
+// 		}
+// 	}
+// //==== by default
+// 	& span:nth-child(1){
+// 		&::before{
+// 			content: '';
+// 			left: -100%;top: 5px;
+// 		}
+// 		&::after{
+// 			content: '';
+// 			width: 71%;
+// 			left: -100%;top: 8px;
+// 		}
+// 	}
+// 	& span:nth-child(2){
+// 		&::before{
+// 			width: 85%;
+// 			content: '';
+// 			right: -100%;top: 9px;
+// 		}
+// 		&::after{
+// 			content: '';
+// 			width: 93%;
+// 			left: -100%;top: 16px;
+// 		}
+// 	}
+// 	& span:nth-child(3){
+// 		&::before{
+// 			width: 45%;
+// 			content: '';
+// 			right: -100%;top: 12px;
+// 		}
+// 		&::after{
+// 			content: '';
+// 			width: 91%;
+// 			left: -100%;top: 21px;
+// 		}
+// 	}
+// 	& span:nth-child(4){
+// 		&::before{
+// 			content: '';
+// 			left: -100%;top: 11px;
+// 		}
+// 		&::after{
+// 			content: '';
+// 			width: 76%;
+// 			right: -100%;top: 25px;
+// 		}
+// 	}
+// //==== on hover	
+// 	&:hover span:nth-child(1){
+// 		transition: all 1s ease 0s;
+// 		&::before{
+// 			left: 0;
+// 		}
+// 		&::after{
+// 			left: 4px;
+// 		}
+// 	}
+// 	&:hover span:nth-child(2){
+// 		&::before{
+// 			content: '';
+// 			right: 9px;
+// 		}
+// 		&::after{
+// 			content: '';
+// 			left: 12px;
+// 		}
+// 	}
+// 	&:hover span:nth-child(3){
+// 		&::before{
+// 			content: '';
+// 			width: 45%;
+// 			right: 5px;
+// 		}
+// 		&::after{
+// 			content: '';
+// 			width: 91%;
+// 			left: 19px;
+// 		}
+// 	}
+// 	&:hover span:nth-child(4){
+// 		&::before{
+// 			content: '';
+// 			left: -15px;
+// 		}
+// 		&::after{
+// 			content: '';
+// 			width: 76%;
+// 			right: 12px;
+// 		}
+// 	}
+// }

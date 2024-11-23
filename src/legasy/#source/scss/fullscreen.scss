@@ -1,0 +1,61 @@
+.fullscreen {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+
+    overflow: hidden;
+
+    // .fullscreen__video
+
+    &__video {
+        display: block;
+        min-width: 100vw;
+        // min-height: 100vh;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        // object-position: 50% 50%;
+    }
+
+    &__video::after {
+        content: '';
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+
+
+    .arrow {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) scale(.8);
+        z-index: 6;
+        animation: arrowMove 2s ease 0s infinite;
+    }
+
+
+}
+
+@keyframes arrowMove {
+    0% {
+        bottom: 35px;
+    }
+
+    50% {
+        bottom: 5px;
+    }
+
+    100% {
+        bottom: 35px;
+    }
+}

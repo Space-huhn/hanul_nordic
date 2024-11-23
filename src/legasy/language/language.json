@@ -1,0 +1,70 @@
+{
+    "ro": {
+        "menuItems": [
+            "Oferte",
+            "Istoria Hanului Nordic",
+            "Galerie",
+            "Contactează-ne",
+            "Tur virtual"
+        ],
+        "homePage": {
+            "sections": [
+                "ISTORIA HANULUI NORDIC",
+                "CE OFERIM?",
+                "RECENZII",
+                "LA HANUL NORDIC"
+            ],
+            "history": {
+                "title": "Noi ținem la tradițiile și istoria noastră",
+                "text": "De mai bine de 8 generații, arborele genealogic al familiei Chilat a promovat valorile și tradițiile regiunii și a dus un mod mediu de viață. Acum 3 generații în urmă, buneii noștri au fost din familii cu 8 copii, dar greutățile nu i-au împiedicat să-și școlarizeze toți copiii. Bunelul originar din satul Corbu (care semnifică o pasăre de o frumusețe tainică, înțeleaptă și rară, identificată în prealabil la...",
+                "buttonText": "Citește mai departe"
+            }
+        }
+    },
+    "ru": {
+        "menuItems": [
+            "Предложения",
+            "История Hanul Nordic",
+            "Галерея",
+            "Связаться с нами",
+            "Виртуальный тур"
+        ],
+        "homePage": {
+            "sections": [
+                "ИСТОРИЯ HANUL NORDIC",
+                "ЧТО МЫ ПРЕДЛАГАЕМ?",
+                "ОТЗЫВЫ",
+                "У HANUL NORDIC"
+            ],
+            "history": {
+                "title": "Мы держимся за наши традиции и историю",
+                "text": "На протяжении более 8 поколений генеалогическое древо семьи Чилат пропагандировало ценности и традиции региона и вело средний образ жизни. 3 поколения назад наши бабушки и дедушки были из семей с 8 детьми, но трудности не помешали им дать образование всем своим детям. Бунель родом из деревни Корбу (имеется в виду птица таинственной, мудрой и редкой красоты, ранее идентифицированная в...",
+                "buttonText": "Читать далее"
+            }
+        }
+    },
+    "en": {
+        "menuItems": [
+            "Offers",
+            "History of the Nordic Inn",
+            "Gallery",
+            "Contact Us",
+            "Virtual tour"
+        ],
+        "homePage": {
+            "sections": [
+                "THE HISTORY OF THE NORDIC INN",
+                "WHAT DO WE OFFER?",
+                "REVIEWS",
+                "AT THE NORDIC INN"
+            ],
+            "history": {
+                "title": "We hold on to our traditions and history",
+                "text": "For more than 8 generations, the family tree of the Chilat family has promoted the values and traditions of the region and led an average way of life. 3 generations ago, our grandparents were from families with 8 children, but difficulties did not prevent them from educating all their children. Bunel originally from the village of Corbu (meaning a bird of mysterious, wise and rare beauty, previously identified at...",
+                "buttonText": "Read more"
+            }
+        }
+    }
+}
+
+
